@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form-Testbook Full Stack Web Developer Course</title>
+    <style>
+        body{
+            background-color:#add8e6;
+        }
+        *{
+            margin-left: 25px;
+            padding: 2px;
+        }
+
+    </style>
+</head>
+<body>
+    <form>
+        <div>
+ <h1>Registration Form</h1>
+ </div>
+ <br><br>
+
+ <label for="details">Enter your details</label><br><br>
+ <div class="cont">
+ <input type="email" name="email" id="details" required placeholder="demo@123.com">
+ <br><br>
+ <input type="password" name="password" id="details"  required placeholder="Enter your password here">
+ </div>
+ <h3>!Type a complex password with 8-20 characters</h3>
+ <br>
+ <div class="cont">
+ <input type="number" name="number" id="" required placeholder="Enter ypour no. here">
+</div>
+<hr>
+<h4>Enter your profession</h4>
+<div class="cont">
+<input type="radio" name="developer" id="">Developer
+<input type="radio" name="developer" id="">Student
+<input type="radio" name="developer" id="">Teacher
+</div>
+<br><br>
+<div class="cont">
+<label for="stage">Choose the stage if you are student</label><br>
+<select name="select the field" id="stage">
+    <option  value="" ></option>
+    <option value="Begginner">Begginner</option>
+    <option value="Intermidiate">Intermidiate</option>
+    <option value="Senior">Senior</option>
+    </div>
+</select>
+<hr>
+<div style="padding: 10px;">
+<label for="Dob">Enter Date Of Birth</label>
+<input type="date" name="Dob" id="Dob">
+<hr>
+<input type="text" name="notes" id="notes" placeholder="Any Notes"><br>
+</div>
+<div>
+    <br>
+    <input type="submit" name="submit" id="submit">
+    &nbsp;
+    <input type="reset" value="Reset">
+</div>
+</form>
+</body>
+</html>
